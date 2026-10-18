@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8">
-    <title>我的第一個網頁</title>
-      <style>
-        body {
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的第一個網頁</title>
+  <style>
+    body {
       font-family: sans-serif;
       background: #fef3c7;
       margin: 0;
@@ -22,12 +23,28 @@
     h1 {
       color: #b45309;
     }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      background: #b45309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 12px;
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>keira</h1>
-    <p>這是我用ipad寫的第一個網頁。</p>
+    <p>這是我用 iPad 寫的第一個網頁。</p>
+    <img src="https://picsum.photos/400/250" alt="隨機風景圖">
+    <p>想看看我在學什麼？</p>
+    <a class="btn" href="https://developer.mozilla.org/zh-TW/docs/Learn" target="_blank">前端學習資源</a>
   </div>
-  </body>
+</body>
 </html>
